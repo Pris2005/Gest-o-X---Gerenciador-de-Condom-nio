@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&display=swap');
+
+/* 
+Cores:
+#9BF2EA
+#7EB9BF
+#012840
+#011C40
+*/
+
+body{
+    background-color: #9BF2EA;
+    font-family: 'Maven Pro';
+    font-weight: 600;
+    color: black;
+}
+
+input{
+    background-color: #ffffff;
+    height: 300px;
+    width: 290px;
+    color: rgba(0, 0, 0, 0.603);
+    border-radius: 5px;
+    outline: none; /* tira a borda azul feia */
+    transition: 0.3s; /* adiciona animação */
+    border: none;
+}
+
+div.quadrado{
+    background-color: #F2F2F2;
+    height: 340px; /* altura */
+    width: 300px;  /* largura*/
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+    margin: 100px auto;
+
+}
+h1{
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 1px;
+}
+h2{
+    font-size: 15px;
+    max-height: 2px;
+    margin-left: 5px;
+    padding: 5px;
+}
+.campos{
+    height: 30px;
+    margin: 0 auto 10px auto;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+
+}
+h3:hover{
+    color: #011C40;
+}
+
+h3{
+    text-align: center;
+}
+
+button{
+    background-color: #011C40;
+    font-weight: bold;
+    color: #e6e2e2;
+    height: 30px; 
+    width: 290px;
+    border: none;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+    font-size: 15px;
+    cursor: pointer; /* mãozinha ao passar o mouse */
+}
+button:hover{
+    color: #fff;
+    background-color: #022047;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+p{
+    text-align: center;
+
+}
+
+
