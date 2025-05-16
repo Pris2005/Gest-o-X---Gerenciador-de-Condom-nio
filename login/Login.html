@@ -8,20 +8,30 @@
     <title>Gestão X</title>
 </head> 
 <body>
+    <div class="logo-nome">
+        <img src="/imagens/logo-condominio.png" alt="Logo">
+        <span>Gestão X</span>
+        <button id="suporte">
+            Iniciar Atendimento
+        </button>
+    </div>
+
     <div class="quadrado">
         <h1>Fazer Login</h1>
         <h2> Email: </h2>
-            <input type="email" class="campos" placeholder="SeuEmail@Exemplo.com">
+
+        <form action="/entrar/entrar.html" method="post"">
+            <input type="email" class="campos" placeholder="SeuEmail@Exemplo.com" required>
+
         <h2> Senha:</h2>
-            <input type="senha" class="campos" placeholder="Digite Sua Senha">
+            <input type="password" class="campos" placeholder="Digite Sua Senha" required>
         
-        <a href=""> 
-            <button>
+            <button id="entrar" type="submit">
                 Entrar
             </button>
-        </a>  
+        </form>
 
-        <a href="">
+        <a href="/esqueceu-senha/esqueceu-senha.html">
             <h3>Esqueceu a Senha?</h3>
         </a>  
 

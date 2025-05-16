@@ -35,9 +35,9 @@ div.quadrado{
     height: 340px; /* altura */
     width: 300px;  /* largura*/
     border-radius: 10px;
-    padding: 50px;
+    padding: 30px;
     box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
-    margin: 100px auto;
+    margin: 80px auto;
 
 }
 h1{
@@ -69,7 +69,7 @@ h3{
     text-align: center;
 }
 
-button{
+#entrar{
     background-color: #011C40;
     font-weight: bold;
     color: #e6e2e2;
@@ -86,6 +86,11 @@ button:hover{
     color: #fff;
     background-color: #022047;
 }
+button:active {
+    background-color: #1c5980;
+    transform: translateY(2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
 
 a{
     text-decoration: none;
@@ -97,4 +102,34 @@ p{
 
 }
 
+.logo-nome {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-top: 20px;
+    gap: 10px; /* Espaço entre a imagem e o texto */
+}
 
+.logo-nome img {
+    width: 50px;
+}
+
+.logo-nome span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #011C40;
+    white-space: nowrap; /* NÃO QUEBRAR o texto em outra linha */
+}
+
+#suporte{
+    background-color: #011c40ce;
+    font-weight: bold;
+    color: #fff;
+    height: 40px; 
+    width: 180px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer; /* mãozinha ao passar o mouse */
+    margin-left: auto;
+}
